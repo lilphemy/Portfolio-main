@@ -1,0 +1,124 @@
+.firstIntroBlock {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url("../../imagesproj/secimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin: auto;
+    padding: auto;
+}
+
+.menuBtn {
+    display: none;
+}
+.headText {
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.textSection {
+    margin: auto;
+    margin-top: 50vh;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    text-align: left;
+    padding-left: 10rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.textSection h2 {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.socials {
+    position: fixed;
+    top: 0;
+    right: 2rem;
+    width: fit-content;
+    background-color: white;
+    text-align: center;
+}
+
+.socialIcons {
+    font-size: 40px;
+    color: dodgerblue;
+    margin: 1.5rem;
+}
+
+
+@media screen and (max-width: 999px) {
+
+    .firstIntroBlock {
+        position: sticky;
+        width: 100%;
+    }
+
+    .menuBtn {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        z-index: 20;
+    }
+
+    .menuBars {
+        font-size: 25px;
+        color: azure;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 1rem;
+    }
+
+
+    .textSection {
+        font-size: 14px;
+        text-align: center;
+        font-weight: 500;
+        padding: 0 auto;
+        text-align: left;
+    }
+
+    .socials {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 599px) {
+    
+    .firstIntroBlock {
+        position: sticky;
+        width: 100%;
+    }
+
+    .headText {
+        width: 100%;
+        margin: auto;
+        box-sizing: border-box;
+        padding: 0;
+    }
+
+    .textSection {
+        font-size: 12px;
+        text-align: left;
+        font-weight: 500;
+        padding: 0 auto;
+        text-align: left;
+    }
+
+    h2  {
+        font-size: 6px;
+    }
+
+    .socials {
+        display: none;
+    }
+}

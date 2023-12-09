@@ -1,0 +1,229 @@
+
+.projBuck {
+    text-align: center;
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    height: fit-content;
+    max-width: 100%;
+    background-color: whitesmoke;
+}
+
+.projTitle {
+    position: relative;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: dodgerblue;
+    top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.bottomLine {
+    width: 4em;
+    border: 2px solid red;
+    margin: 0 auto;
+    position: absolute;
+    top: 3rem;
+    right: 43%;
+}
+
+.projBlock {
+    width: 85%;
+    height: 100vh;
+    box-sizing: border-box;
+    margin-top: 6rem;
+    margin-left: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem 1rem;
+}
+
+.singleItem {
+    margin: 1rem 1.5rem;
+    width: 15rem;
+    height: 15rem;
+    text-align: center;
+    
+} 
+
+.imgCont {
+    height: 70%;
+    width: 100%;
+    border: 3px double dodgerblue;
+    border-radius: 1rem;
+}
+
+.imgCont img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.imgText {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16.5px;
+    color: dodgerblue;
+    font-weight: 900;
+    margin-top: 2.5rem;
+    text-transform: capitalize;
+
+}
+
+.anchLink {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    border-radius: .5em;
+    text-transform: capitalize;
+    background-color: dodgerblue;
+    padding: .4rem;
+    width: 80%;
+    margin-top: 2.5rem;
+}
+
+
+@media screen and (max-height: 900px) {
+    .projBlock {
+        margin-top: 3rem;
+        margin-left: 10%;
+    }
+    
+    .singleItem {
+        margin: 1.5rem;
+        width: 25%;
+        height: 12rem;
+        text-align: center;
+        
+    } 
+    
+    .imgCont {
+        height: 70%;
+        width: 100%;
+        border: 3px double dodgerblue;
+        border-radius: 1rem;
+    }
+    
+    .imgCont img {
+        width: 100%;
+        height: 100%;
+        border-radius: 1rem;
+    }
+}
+
+@media screen and (max-width: 999px) {
+
+    .projBuck {
+        height: 85vh;
+    }
+
+    .bottomLine {
+        width: 4em;
+        right: 42%;
+    }
+
+    .projBlock {
+        width: 100%;
+        height: 85vh;
+        margin-top: 5rem;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .singleItem {
+        width: 20%;
+        height: 18rem;
+    }
+
+    .imgCont {
+        border-radius: .5rem;
+    }
+
+    .imgCont img {
+        border-radius: .5rem;
+        height: 100%;
+    }
+
+    .imgText {
+        font-size: 14px;
+        color: tomato;
+        margin: 2rem auto;
+        font-family: serif;
+    }
+    
+    .anchLink {
+        border: 1px solid dodgerblue;
+        text-transform: uppercase;
+        background-color: dodgerblue;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+}
+
+@media screen and (max-width: 699px) {
+
+    .projBuck {
+        height: fit-content;
+        max-width: 100%;
+    }
+    .projTitle {
+        position: relative;
+        font-size: 1rem;
+        top: 2rem;
+    }
+
+    .bottomLine {
+        width: 4em;
+        right: 42%;
+        top: 1.6rem;
+    }
+
+    .bottomLine {
+        width: 4em;
+        right: 42%;
+    }
+
+    .projBlock {
+        width: 100%;
+        margin-top: 3rem;
+        margin-left: 0;
+        height: fit-content;
+        box-sizing: border-box;
+        flex-direction: row;
+
+    }
+    
+    .singleItem {
+        width: 60%;
+        height: 18rem;
+        margin: 2.5rem auto;
+    }
+
+    .imgCont {
+        border-radius: .5rem;
+    }
+
+    .imgCont img {
+        border-radius: .5rem;
+        height: 100%;
+    }
+
+    .imgText {
+        font-size: 14px;
+        color: tomato;
+        margin: 2rem auto;
+        font-family: serif;
+    }
+    
+    .anchLink {
+        border: 1px solid dodgerblue;
+        text-transform: uppercase;
+        background-color: dodgerblue;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
