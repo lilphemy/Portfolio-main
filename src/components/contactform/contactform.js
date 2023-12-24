@@ -30,17 +30,17 @@ function ContactForm() {
                     </div>
                     <div className={Classes.RadioBtn}>
                         <span className={Classes.inputTitle}>Reason for contact</span>
-                        <label for="contact">
+                        <label htmlFor="contact">
                             <input type="radio" id={Classes.radioInput} name="business" value="Business"></input>
                             <span>Business</span>
                         </label>
-                        <label for="Personal" >
+                        <label htmlFor="Personal" >
                             <input type="radio" id={Classes.radioInput} name="personal"></input>
                             <span className={Classes.inputTitle}>Personal</span>
                         </label>
                     </div>
                     <div className={Classes.inputBlockStyle}>
-                        <span for="message" className={Classes.inputTitle}>Message</span>
+                        <span htmlFor="message" className={Classes.inputTitle}>Message</span>
                         <textarea type='text' data-rows="10" name="message" required></textarea>
                     </div>
                     <div className={Classes.inputBlockStyle}>
