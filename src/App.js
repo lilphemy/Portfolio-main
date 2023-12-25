@@ -9,7 +9,7 @@ function PageCombiner () {
             <Router>
                 <Routes>
                     <Route path = "/" element = {<ContentStructure/>}/>
-                    <Route path = "*" element />
+                    <Route path = "*" element = {<ContentStructure/>}/>
                 </Routes>
             </Router>
             
