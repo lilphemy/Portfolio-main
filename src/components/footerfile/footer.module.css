@@ -44,6 +44,12 @@
     border-top: 2px solid aliceblue;
 }
 
+@media screen and (max-width: 900px) {
+    .footerBlock {
+        margin-top: 2rem;
+    }
+}
+
 
 @media screen and (max-width: 699px) {
 

@@ -5,6 +5,13 @@ import Classes from "./contactform.module.css"
 
 function ContactForm() {
 
+    const Style = {
+        display: "flex",
+        flexDirection: "row",
+        border: "2px solid dodgerblue",
+
+    }
+
     return (
 
         <React.Fragment>
@@ -17,33 +24,33 @@ function ContactForm() {
                         <h3>Contact Me</h3>
                     </div>
                     <div className={Classes.inputBlockStyle}>
-                        <span htmlFor="email" className={Classes.inputTitle}>email</span>
-                        <input autoComplete="off" type='email' name="email" required></input>
+                        <span htmlFor="email" className={Classes}>email</span>
+                        <input placeHolder = "your email" autoComplete="off" type='email' name="email" required/>
                     </div>
                     <div className={Classes.inputBlockStyle}>
-                        <span htmlFor="firstname" className={Classes.inputTitle}>First name</span>
-                        <input type='text' autoComplete="off" name="firstname" required></input>
+                        <span htmlFor="firstname" className={Classes}>First name</span>
+                        <input placeHolder = "your first name" type='text' autoComplete="off" name="firstname" required/>
                     </div>
                     <div className={Classes.inputBlockStyle}>
-                        <span htmlFor="lastname" className={Classes.inputTitle}>Last name</span>
-                        <input type='text' autoComplete="off" name="lastname" required></input>
+                        <span htmlFor="lastname" className={Classes}>Last name</span>
+                        <input placeHolder = "your last name" type='text' autoComplete="off" name="lastname" required/>
                     </div>
-                    <div className={Classes.RadioBtn}>
+                    <div className={Classes.RadioBtn}> 
                         <span className={Classes.inputTitle}>Reason for contact</span>
                         <label htmlFor="contact">
                             <input type="radio" id={Classes.radioInput} name="business" value="Business"></input>
                             <span>Business</span>
                         </label>
                         <label htmlFor="Personal" >
-                            <input type="radio" id={Classes.radioInput} name="personal"></input>
+                            <input type="radio" id={Classes.radioInput} name="personal"/>
                             <span className={Classes.inputTitle}>Personal</span>
                         </label>
                     </div>
-                    <div className={Classes.inputBlockStyle}>
-                        <span htmlFor="message" className={Classes.inputTitle}>Message</span>
-                        <textarea type='text' data-rows="10" name="message" required></textarea>
+                    <div className={Classes.messageStyle}>
+                        <span htmlFor="message" className={Classes}>Message</span>
+                        <textarea placeHolder = "your message" type='text' data-rows="10" name="message" required></textarea>
                     </div>
-                    <div className={Classes.inputBlockStyle}>
+                    <div className={Classes.btnStyles}>
                         <button type="submit">submit</button>
                     </div>
                 </form>

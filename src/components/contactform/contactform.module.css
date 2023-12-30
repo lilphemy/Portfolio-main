@@ -1,11 +1,13 @@
-
+:root {
+    --pri-color: dodgerblue;
+    --main-sec: tomato;
+}
 .contactBlock {
-    padding-bottom: 4rem;
-    width: (90% + .6rem);
+    width: 80%;
+    margin: 10rem auto;
     height: fit-content;
-    margin-bottom: 10rem;
+    margin-left: 15rem;
     background-color: white;
-    text-align: center;
     box-sizing: border-box;
 }
 
@@ -21,9 +23,9 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin: auto;
-    height: 80vh;
-    padding: 1rem;
+    height: fit-content;
+    margin-left: 15rem;
+    border: 2px solid var(--pri-color);
     
 }
 
@@ -38,38 +40,54 @@
 }
 
 .inputBlockStyle {
-    width: 100%;
+    width: 90%;
+    height: fit-content;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
-    margin: 1rem 2rem;
-    color: whitesmoke;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0.6rem auto;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
-    text-transform: uppercase;
-    font-weight: 900;
-    background-color: dodgerblue;
+    font-weight: 500;    
     border-radius: .4rem;
+    text-transform: capitalize;
+}
+
+.inputBlockStyle span {
+    width: 25%;
     padding: 1rem;
+    margin: auto 1rem;
+}
+.inputBlockStyle input {
+    width: 75%;
+    padding: 1rem;
+    margin: auto 1rem;
+    color: tomato;
+    text-transform: capitalize;
+    font-size: 16px;
 }
 
 
-.inputTitle {
-    margin-bottom: 1rem;
-    align-self: first baseline;
+.inputBlockStyle span {
+    border: 2px solid dodgerblue;
+    color: dodgerblue;
+    font-weight: 600;
 }
 
-
-input, textarea {
-    border: 2px solid white;
+.inputBlockStyle input {
+    border: hidden;
+    outline: none;
+    border-bottom: 2px solid var(--pri-color);
+}
+/* input, textarea {
+    border: 2px solid black;
     outline: none;
     color: white;
     border-radius: .2rem;
     font-size: 12px;
-    background-color: dodgerblue;
     padding: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
+} */
 
 .RadioBtn {
     display: flex;
@@ -77,32 +95,76 @@ input, textarea {
     align-items: first baseline;
     margin: 1rem 2rem;
     width: 100%;
-    font-weight: 900;
-    background-color: dodgerblue;
+    font-weight: 600;
     border-radius: .4rem;
     padding: 1rem;
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: dodgerblue;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 13px;
     text-transform: uppercase;
 }
 
-button {
-    width: 40%;
-    padding: 10px;
-    background-color: whitesmoke;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.inputTitle {
+    margin-bottom: 1rem;
+    align-self: first baseline;
+}
+
+.messageStyle {
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0.6rem auto;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
-    font-weight: 800;
-    font-style: italic;
-    outline-style: hidden;
-    border-radius: .3rem;
-    outline: hidden;
-    border: hidden;
+    font-weight: 500;    
+    border-radius: .4rem;
     text-transform: uppercase;
+}
+
+.messageStyle span {
+    border-right: 2px solid var(--pri-color);
     color: dodgerblue;
-    cursor: pointer;
+    font-weight: 600;
+    width: 15%;
+    margin: 2rem 0;
+}
+
+.messageStyle textarea {
+    --sec-color: tomato;
+    width: 80%;
     margin: auto;
+    line-height: 2;
+    height: 10rem;
+    color: var(--sec-color);
+    outline: none;
+    border: 1px solid cornflowerblue;
+    text-align: justify;
+}
+
+.btnStyles {
+    margin: 3rem auto;
+    width: 70%;
+    text-align: center;
+}
+
+
+button {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--sec-color);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: bold;
+    border-radius: .3rem;
+    border: 2px solid var(--pri-color);
+    outline: hidden;
+    text-transform: uppercase;
+    color: var(--main-sec);
+    cursor: pointer;
+    margin: 0 auto;
 }
 
 @media screen and (max-height: 800px){
@@ -117,7 +179,6 @@ button {
     .contactBlock {
         margin-bottom: 28rem;
     }
-
 }
 
 

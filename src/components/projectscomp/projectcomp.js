@@ -28,7 +28,7 @@ function ProjectDisplay() {
                                         <div className={Classes.imgText}>
                                             <p>{name}</p>
                                         </div>
-                                        <div>
+                                        <div className = {Classes.btnLink}>
                                             <a className={Classes.anchLink} target="_blank" rel= "noreferrer" href={linkResource}>view project</a>
                                         </div>
                                     </div>
