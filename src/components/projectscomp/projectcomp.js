@@ -18,7 +18,7 @@ function ProjectDisplay() {
                 <div className={Classes.projBlock}>
                     {
                         dataBuck.map((item) => {
-                            const { id, name, imgdir, imgresource } = item
+                            const { id, name, imgdir, linkResource } = item
                             return (
                                 <React.Fragment key={id}>
                                     <div  className={Classes.singleItem}>
@@ -29,7 +29,7 @@ function ProjectDisplay() {
                                             <p>{name}</p>
                                         </div>
                                         <div>
-                                            <a className={Classes.anchLink} target="_blank" rel= "noreferrer" href={imgresource}>view project</a>
+                                            <a className={Classes.anchLink} target="_blank" rel= "noreferrer" href={linkResource}>view project</a>
                                         </div>
                                     </div>
                                 </React.Fragment >
