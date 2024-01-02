@@ -6,7 +6,7 @@
     left: 0;
     background-color: dodgerblue;
     width: 4em;
-    height: 100vh;
+    height: 100%;
     padding: auto;
     display: flex;
     flex-direction: column;

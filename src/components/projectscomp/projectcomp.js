@@ -10,7 +10,7 @@ function ProjectDisplay() {
 
     return (
         <React.Fragment>
-            <div href = "4" className={Classes.projBuck}>
+            <div id = "4" className={Classes.projBuck}>
                 <div className = {Classes.projTitle}>
                     <h3>Projects</h3>
                     <div className={Classes.bottomLine}></div>

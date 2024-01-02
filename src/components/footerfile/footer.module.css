@@ -44,6 +44,13 @@
     border-top: 2px solid aliceblue;
 }
 
+.phoneCont {
+    font-weight: 700;
+    font-size: px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #091234
+}
+
 @media screen and (max-width: 900px) {
     .footerBlock {
         margin-top: 2rem;

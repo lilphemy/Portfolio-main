@@ -2,31 +2,32 @@
     --pri-color: dodgerblue;
     --main-sec: tomato;
 }
+
 .contactBlock {
     width: 80%;
-    margin: 10rem auto;
-    height: fit-content;
+    margin-top: 5rem;
     margin-left: 15rem;
+    height: fit-content;
     background-color: white;
     box-sizing: border-box;
 }
 
-.formStyles {
+/* .formStyles {
     background-color: dodgerblue;
     width: 70%;
     height: 60%;
     font-family: 'Times New Roman', Times, serif;
-}
+} */
 
 
 .mainForm {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin-left: 10rem;
     width: 50%;
     height: fit-content;
-    margin-left: 15rem;
     border: 2px solid var(--pri-color);
-    
 }
 
 .formDesc {
@@ -48,7 +49,7 @@
     margin: 0.6rem auto;
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
-    font-weight: 500;    
+    font-weight: 500;
     border-radius: .4rem;
     text-transform: capitalize;
 }
@@ -58,6 +59,7 @@
     padding: 1rem;
     margin: auto 1rem;
 }
+
 .inputBlockStyle input {
     width: 75%;
     padding: 1rem;
@@ -79,6 +81,7 @@
     outline: none;
     border-bottom: 2px solid var(--pri-color);
 }
+
 /* input, textarea {
     border: 2px solid black;
     outline: none;
@@ -118,7 +121,7 @@
     margin: 0.6rem auto;
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
-    font-weight: 500;    
+    font-weight: 500;
     border-radius: .4rem;
     text-transform: uppercase;
 }
@@ -167,7 +170,7 @@ button {
     margin: 0 auto;
 }
 
-@media screen and (max-height: 800px){
+@media screen and (max-height: 800px) {
     .contactBlock {
         margin-bottom: 20rem;
     }
@@ -175,16 +178,37 @@ button {
 }
 
 
-@media screen and (max-height: 600px){
+@media screen and (max-height: 600px) {
     .contactBlock {
         margin-bottom: 28rem;
     }
 }
 
-
-@media screen and (max-width: 999px){
+@media screen and (max-width: 1024px) {
     .contactBlock {
-        margin-bottom: 2rem;
+        width: 80%;
+        margin: 5rem auto;
+        margin-left: 10rem;
+        height: fit-content;
+        background-color: white;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 999px) {
+
+    .contactBlock {
+        text-align: center;
+        width: 100%;
+        margin: 5rem auto;
+    }
+
+    .mainForm {
+        width: 70%;
+        text-align: center;
+        margin: 2rem auto;
+        border: 2px solid var(--pri-color);
+    
     }
 
     .inputBlockStyle {
@@ -202,18 +226,16 @@ button {
 @media screen and (max-width: 699px) {
 
     .contactBlock {
+        margin: 7rem auto;
         width: 100%;
-        height: fit-content;
-        margin: auto;
-        padding: auto;
-        background-color: whitesmoke;
     }
 
     .mainForm {
-        width: 80%;
+        width: 70%;
         height: fit-content;
         background-color: white;
-        padding: auto;
+        padding: 0;
+        border: 2px solid var(--pri-color);
     }
 
     .formDesc {
@@ -223,7 +245,6 @@ button {
         font-size: 12px;
         font-weight: 300;
     }
-
 
     .inputBlockStyle {
         margin: auto;
@@ -235,24 +256,25 @@ button {
         width: 80%;
         margin: .6rem auto;
     }
+
+    .inputBlockStyle span {
+        width: 25%;
+        padding: 1rem;
+        margin: auto 0.6rem;
+    }
     
+    .inputBlockStyle input {
+        width: 75%;
+        padding: 1rem;
+        margin: auto 0;
+    }
+
 
     .inputTitle {
         margin-bottom: .4rem;
     }
-    
-    
-    input, textarea {
-        border: none;
-        outline: none;
-        border-radius: .2rem;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        border: 2px solid azure;
-        padding: auto;
-        font-size: 6px;
-        
-    }
-    
+
+
     .RadioBtn {
         border-radius: .4rem;
         font-size: 8px;
@@ -260,8 +282,8 @@ button {
         font-weight: 300;
     }
 
-    
-    button {
+
+    /* button {
         width: 60%;
         margin: 0 auto;
         padding: 8px;
@@ -276,10 +298,8 @@ button {
         border: hidden;
         text-transform: uppercase;
         color: dodgerblue;
-    
-    }
 
-    
+    } */
+
+
 }
-
-
