@@ -15,12 +15,12 @@ export const projectData = [
         imgdir: socialMedia,
         linkResource:"https://lilphemy.github.io/socialMediaTemplate/index.html#",
     },
-    {
-        id: 2,
-        name: "strapi-react",
-        imgdir: StrapiReact,
-        linkResource:"https://lilphemystrapiapp.netlify.app/",
-    },
+    // {
+    //     id: 2,
+    //     name: "strapi-react",
+    //     imgdir: StrapiReact,
+    //     linkResource:"https://lilphemystrapiapp.netlify.app/",
+    // },
     {
         id: 3,
         name: "sidebarReact",

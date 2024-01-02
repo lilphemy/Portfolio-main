@@ -99,12 +99,12 @@
     margin: 1rem 2rem;
     width: 100%;
     font-weight: 600;
-    border-radius: .4rem;
     padding: 1rem;
     color: dodgerblue;
     font-family: 'Times New Roman', Times, serif;
     font-size: 13px;
     text-transform: uppercase;
+    border-radius: .4rem;
 }
 
 .inputTitle {
@@ -302,4 +302,46 @@ button {
     } */
 
 
+}
+
+@media screen and (max-width: 450px) {
+
+    .inputBlockStyle {
+        width: 100%;
+        height: fit-content;
+        display: block;
+        text-align: center;
+        margin: 0.3rem auto;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 10px;
+        font-weight: 100;
+        border-radius: .4rem;
+        text-transform: capitalize;
+    }
+
+    .inputBlockStyle span {
+        display: none;
+        margin: 0 auto;
+    }
+
+    .inputBlockStyle input {
+        width: 75%;
+        padding: 0.4rem;
+        margin: auto;
+        font-size: 12px;
+    }
+
+    .messageStyle{
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .messageStyle span {
+        width: 40%;
+    }
+
+    .RadioBtn {
+        font-size: 14px;
+        font-family: 'Times New Roman', Times, serif;
+    }
 }
