@@ -1,29 +1,10 @@
 .projBuck {
     text-align: center;
     box-sizing: border-box;
-    padding:0;
+    padding: 2rem 0;
     margin:0;
     width: 100%;
     background-color: whitesmoke;
-}
-
-.projTitle {
-    width: 100%;
-    margin: 1rem auto;
-    position: relative;
-    font-size: 2rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: dodgerblue;
-    
-}
-
-.bottomLine {
-    width: 4em;
-    border: 2px solid red;
-    position: absolute;
-    margin: auto;
-    top: 3.7rem;
-    right: 27rem;
 }
 
 .projBlock {
@@ -37,6 +18,24 @@
     grid-template-rows: repeat(3, 1fr);
     justify-content: center;
     align-items: center;
+}
+
+.projTitle {
+    width: 100%;
+    margin: 1rem auto;
+    position: relative;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: dodgerblue;
+}
+
+.bottomLine {
+    width: 4em;
+    border: 2px solid red;
+    position: absolute;
+    margin: auto;
+    top: 3.7rem;
+    right: 27rem;
 }
 
 .singleItem {
@@ -96,7 +95,6 @@
     .projBlock {
         height: fit-content;
         box-sizing: border-box;
-        /* margin-top: 3rem;*/
         margin-left: 10rem; 
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -149,7 +147,6 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        
     }
     
     .singleItem {

@@ -82,22 +82,32 @@
     border-bottom: 2px solid var(--pri-color);
 }
 
-/* input, textarea {
-    border: 2px solid black;
-    outline: none;
-    color: white;
-    border-radius: .2rem;
-    font-size: 12px;
-    padding: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-} */
+.container {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    padding-left: 3rem;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
 
-.RadioBtn {
+.container input {
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
+    border: 3px solid lime;
+
+}
+
+/* .RadioBtn {
     display: flex;
     flex-direction: column;
     align-items: first baseline;
-    margin: 1rem 2rem;
-    width: 100%;
+    margin: 3rem 2rem;
+    width: 3rem;
+    height: 2rem;
     font-weight: 600;
     padding: 1rem;
     color: dodgerblue;
@@ -105,13 +115,30 @@
     font-size: 13px;
     text-transform: uppercase;
     border-radius: .4rem;
-}
+} */
 
 .inputTitle {
-    margin-bottom: 1rem;
-    align-self: first baseline;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    width: 2rem;
+    background-color: cornflowerblue;
 }
 
+.container input:checked ~ .inputTitle {
+    background-color: cornflowerblue;
+}
+
+.inputTitle::after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container input:checked ~ .inputTitle::after {
+    display: block;
+}
 .messageStyle {
     width: 90%;
     height: fit-content;
@@ -208,7 +235,7 @@ button {
         text-align: center;
         margin: 2rem auto;
         border: 2px solid var(--pri-color);
-    
+
     }
 
     .inputBlockStyle {
@@ -262,7 +289,7 @@ button {
         padding: 1rem;
         margin: auto 0.6rem;
     }
-    
+
     .inputBlockStyle input {
         width: 75%;
         padding: 1rem;
@@ -331,7 +358,7 @@ button {
         font-size: 12px;
     }
 
-    .messageStyle{
+    .messageStyle {
         width: 100%;
         padding: 1rem;
     }

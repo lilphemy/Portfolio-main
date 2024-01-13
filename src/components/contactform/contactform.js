@@ -16,9 +16,7 @@ function ContactForm() {
 
         <React.Fragment>
             <div className={Classes.contactBlock}>
-
                 {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdmF_VgeE2tlrN-d4jw9qKjmResjS6jQQ2xzdRc6CLCPWtsEg/viewform?embedded=false" width="80%" height="4rem" frameborder="0" marginheight="0" marginwidth="0" className= {Classes.formStyles}>Loading…</iframe> */}
-                
                 <form className={Classes.mainForm} action="https://formspree.io/f/mqkvgekl" method="POST" >
                     <div className={Classes.formDesc}>
                         <h3>Contact Me</h3>
@@ -36,14 +34,14 @@ function ContactForm() {
                         <input placeHolder = "your last name" type='text' autoComplete="off" name="lastname" required/>
                     </div>
                     <div className={Classes.RadioBtn}> 
-                        <span className={Classes.inputTitle}>Reason for contact</span>
-                        <label htmlFor="contact">
-                            <input type="radio" id={Classes.radioInput} name="business" value="Business"></input>
-                            <span>Business</span>
+                        <div className={Classes.inputTitle}>Reason for contact</div>
+                        <label htmlFor="contact" className = {Classes.container}>Business
+                            <input type="radio" className={Classes.radioInput} name="business" value="Business" />
+                            <span className={Classes.inputTitle}></span>
                         </label>
-                        <label htmlFor="Personal" >
-                            <input type="radio" id={Classes.radioInput} name="personal"/>
-                            <span className={Classes.inputTitle}>Personal</span>
+                        <label htmlFor="Personal" className = {Classes.container}>Personal
+                            <input type="radio" className={Classes.radioInput} name="personal"/>
+                            <span className={Classes.inputTitle}></span>
                         </label>
                     </div>
                     <div className={Classes.messageStyle}>

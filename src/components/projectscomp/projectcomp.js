@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { projectData } from "../../databucket/projectdata"
 import Classes from "./projectcomp.module.css"
+import theFile from "../../projectimg/maihomeProj.png"
 
 
 
@@ -39,7 +40,6 @@ function ProjectDisplay() {
                     }
                 </div>
             </div>
-
         </React.Fragment>
     )
 }

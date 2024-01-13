@@ -5,6 +5,7 @@ import socialMedia from "../projectimg/socialmedia.PNG"
 import StrapiReact from "../projectimg/StrapiReact.PNG"
 import VirtualKey from "../projectimg/Virtualkeyboard.PNG"
 import Maihome from "../projectimg/maihomeProj.png"
+import ComeradeNg from "../projectimg/comradengshot.png"
 
 
 
@@ -15,12 +16,12 @@ export const projectData = [
         imgdir: socialMedia,
         linkResource:"https://lilphemy.github.io/socialMediaTemplate/index.html#",
     },
-    // {
-    //     id: 2,
-    //     name: "strapi-react",
-    //     imgdir: StrapiReact,
-    //     linkResource:"https://lilphemystrapiapp.netlify.app/",
-    // },
+    {
+        id: 2,
+        name: "comrade-nigeria",
+        imgdir: ComeradeNg,
+        linkResource:"https://comrade.ng/",
+    },
     {
         id: 3,
         name: "sidebarReact",
@@ -35,18 +36,12 @@ export const projectData = [
     },
     {
         id: 5,
-        name: "NumberGuesser game",
-        imgdir: numberguess,
-        linkResource:"https://lilphemy.github.io/NumberGuess/numberGuess/index.html",
-    },
-    {
-        id: 6,
         name: "virtual keyboard",
         imgdir: VirtualKey,
         linkResource:"https://lilphemy.github.io/virtual-keyboard/index.html",
     },
     {
-        id: 7,
+        id: 6,
         name: "maihome",
         imgdir: Maihome,
         linkResource:"https://maihomminvest.com/",
