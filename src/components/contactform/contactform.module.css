@@ -127,7 +127,7 @@
 }
 
 .container input:checked ~ .inputTitle {
-    background-color: cornflowerblue;
+    background-color: red;
 }
 
 .inputTitle::after {

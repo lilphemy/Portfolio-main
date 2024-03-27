@@ -4,8 +4,6 @@ import Classes from "./aboutme.module.css"
 import myImage from "../../imagesproj/lilphemy.PNG"
 
 
-
-
 const AboutComp = function () {
 
     return (

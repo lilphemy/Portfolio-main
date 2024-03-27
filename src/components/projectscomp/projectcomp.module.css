@@ -8,7 +8,7 @@
 }
 
 .projBlock {
-    height: fit-content;
+    
     box-sizing: border-box;
     margin: auto;
     /* margin-top: 3rem;*/
@@ -39,9 +39,9 @@
 }
 
 .singleItem {
-    /* margin: 5rem auto; */
-    width: 100%;
-    height: 100%;
+    margin: auto 2rem;
+    width: 60%;
+    height: 60%;
 } 
 
 .imgCont {

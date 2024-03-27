@@ -6,6 +6,7 @@ import StrapiReact from "../projectimg/StrapiReact.PNG"
 import VirtualKey from "../projectimg/Virtualkeyboard.PNG"
 import Maihome from "../projectimg/maihomeProj.png"
 import ComeradeNg from "../projectimg/comradengshot.png"
+import lendsql from "../projectimg/lendsqr.png"
 
 
 
@@ -45,5 +46,11 @@ export const projectData = [
         name: "maihome",
         imgdir: Maihome,
         linkResource:"https://maihomminvest.com/",
+    },
+    {
+        id: 7,
+        name: "lendsql",
+        imgdir: lendsql,
+        linkResource:"https://lilphemy-lendsql-app.vercel.app/",
     },
 ]
