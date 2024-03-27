@@ -35,7 +35,7 @@
     position: absolute;
     margin: auto;
     top: 3.7rem;
-    right: 27rem;
+    right: 54rem;
 }
 
 .singleItem {
@@ -220,7 +220,7 @@
 
     .bottomLine {
         width: 4em;
-        right: 16.8rem;
+        right: 15rem;
         top: 1.6rem;
     }
 
