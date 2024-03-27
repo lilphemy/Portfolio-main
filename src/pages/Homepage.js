@@ -19,7 +19,7 @@ function ContentStructure() {
                 <AboutComp/>
                 <SkillComp/>
                 <ProjectDisplay/>
-                <ContactForm/>
+                {/* <ContactForm/> */}
                 <FooterCase/>
         </React.Fragment>
     )
