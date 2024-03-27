@@ -9,7 +9,7 @@ function ProjectDisplay() {
 
     const [dataBuck, setDataBuck] = useState(projectData);
 
-    alert(window.innerHeight)
+    //alert(window.innerHeight)
 
     return (
         <React.Fragment>

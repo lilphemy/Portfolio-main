@@ -35,7 +35,7 @@ function IntroBlock() {
                         <div className={Classes.menuBtn}>
                             <span className={Classes.menuBars}></span>
                         </div>
-                        <a href="www.linkedin.com/in/oladapo-obafemi-benson" target="_blank" rel="noreferrer"><span className={Classes.socialIcons}><i className="fa-brands fa-linkedin-in"></i></span></a>
+                        <a href="https://www.linkedin.com/in/oladapo-obafemi-benson" target="_blank" rel="noreferrer"><span className={Classes.socialIcons}><i className="fa-brands fa-linkedin-in"></i></span></a>
                         <a href="https://github.com/lilphemy" target="_blank" rel="noreferrer"><span className={Classes.socialIcons}><i className="fa-brands fa-github"></i></span></a>
                         <a href="https://twitter.com/lil_phemy" target="_blank" rel="noreferrer"><span className={Classes.socialIcons}><i className="fa-brands fa-twitter"></i></span></a>
                         <a href="" target="_blank" rel="noreferrer"><span className={Classes.socialIcons}><i className="fa-solid fa-envelope"></i></span></a>
