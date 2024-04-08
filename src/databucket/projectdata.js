@@ -7,6 +7,7 @@ import VirtualKey from "../projectimg/Virtualkeyboard.PNG"
 import Maihome from "../projectimg/maihomeProj.png"
 import ComeradeNg from "../projectimg/comradengshot.png"
 import lendsql from "../projectimg/lendsqr.png"
+import Mintyproj from "../projectimg/Mintynproj.png"
 
 
 
@@ -52,5 +53,11 @@ export const projectData = [
         name: "lendsql",
         imgdir: lendsql,
         linkResource:"https://lilphemy-lendsql-app.vercel.app/",
+    },
+    {
+        id: 8,
+        name: "Mintyn web",
+        imgdir: Mintyproj,
+        linkResource:"https://lilphemy-mintynapp.netlify.app/",
     },
 ]
