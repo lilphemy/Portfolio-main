@@ -24,7 +24,7 @@ function ProjectDisplay() {
                             const { id, name, imgdir, linkResource } = item
                             return (
                                 <React.Fragment key={id}>
-                                    <div className={Classes.singleItem}>
+                                    <div className = {Classes.singleItem}>
                                         <div className={Classes.imgCont}>
                                             <img alt={name} className={Classes.imgPitch} src={imgdir}></img>
                                         </div>
@@ -45,7 +45,6 @@ function ProjectDisplay() {
         </React.Fragment>
     )
 }
-
 
 
 export default ProjectDisplay

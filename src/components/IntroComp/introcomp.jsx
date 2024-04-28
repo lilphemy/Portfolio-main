@@ -24,7 +24,7 @@ function IntroBlock() {
 
                     <div className={Classes.headText}>
                         <p>Hello, i am</p>
-                        <h2>OLADAPO OBAFEMI BENSON</h2>
+                        <h2 className=" font-3xl text-purple-400">OLADAPO OBAFEMI BENSON</h2>
                         <p className={Classes.textZone}>
                             <span>a front-end developer</span>
                         </p>
