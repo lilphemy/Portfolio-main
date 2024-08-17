@@ -22,7 +22,7 @@ function ContentStructure() {
                 {/* <ContactForm/> */}
                 <FooterCase/>
         </React.Fragment>
-    )
+    ) 
 }
 
 export default ContentStructure
