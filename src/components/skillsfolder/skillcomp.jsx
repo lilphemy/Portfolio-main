@@ -3,7 +3,7 @@ import React from "react"
 import Classes from "./skillscomp.module.css"
 
 //icons for skill set and tools.
-
+import {newData} from "../../databucket/projectdata"
 import linux from "../../iconfolder/linux.png"
 import wordpress from "../../iconfolder/wordpress.png"
 import html5 from "../../iconfolder/html-5.png"
@@ -74,6 +74,19 @@ function SkillsComp() {
                         <p>figma</p>
                     </div>
                 </div>
+            </div>
+
+            <div>
+                {newData && Object.values(newData).map((unit) => {
+                    
+                    return(
+                        unit.map((singUnit) => {
+                            <div>
+                                <p>{singUnit}</p>
+                            </div>
+                        })
+                    )
+                })}
             </div>
         </React.Fragment>
     )

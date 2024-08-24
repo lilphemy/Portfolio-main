@@ -61,3 +61,12 @@ export const projectData = [
         linkResource:"https://lilphemy-mintynapp.netlify.app/",
     },
 ]
+
+
+
+export const newData = {
+    first: ["0", "omellete", "loaves"],
+    second: ["1", "rice", "beans"],
+    third: ["2", "egg", "beans"],
+    fourth: ["3", "yam", "stew sauce"],
+}

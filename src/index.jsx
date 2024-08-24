@@ -11,7 +11,7 @@ class DisplayerComp extends React.Component {
     render () {
         return (
             <React.StrictMode>
-                <main className >
+                <main >
                     <PageCombiner/>
                 </main>
             </React.StrictMode>
