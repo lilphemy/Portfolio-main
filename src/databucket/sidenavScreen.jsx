@@ -27,3 +27,4 @@ export const sideNavData = [
         iconText: "contact",
     },
 ]
+

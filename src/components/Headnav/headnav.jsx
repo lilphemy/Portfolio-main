@@ -52,24 +52,6 @@ function HeaderComp() {
         }
     }
 
-    function reverse(id) {
-        if (id === 1) {
-            setNameBoo({ ...nameBoo, firstIcon: !nameBoo.firstIcon })
-        }
-        if (id === 2) {
-            setNameBoo({ ...nameBoo, secondIcon: !nameBoo.secondIcon })
-        }
-        if (id === 3) {
-            setNameBoo({ ...nameBoo, thirdIcon: !nameBoo.thirdIcon })
-        }
-        if (id === 4) {
-            setNameBoo({ ...nameBoo, fourthIcon: !nameBoo.fourthIcon })
-        }
-        if (id === 5) {
-            setNameBoo({ ...nameBoo, fifthIcon: !nameBoo.fifthIcon })
-        }
-
-    }
     return (
         <nav className={Classes.sideNav}>
             <div className={Classes.firstNavComp}>
@@ -77,7 +59,7 @@ function HeaderComp() {
             </div>
             <div className={Classes.secNavComp}>
                 <ul className={Classes.listBaby}>
-                    <li id="1" key={manaData.iconVisual[0].id} onMouseEnter={(e) => handleLogic(manaData.iconVisual[0].id)} onMouseLeave={() => reverse(manaData.iconVisual[0].id)}>
+                    <li id="1" key={manaData.iconVisual[0].id} onMouseEnter={() => handleLogic(manaData.iconVisual[0].id)} onMouseLeave={() => handleLogic(manaData.iconVisual[0].id)}>
                         <Link to="">
                             <span className={Classes.iconStyles}>
                                 {manaData.iconVisual[0].iconName}
@@ -86,7 +68,7 @@ function HeaderComp() {
                         {nameBoo.firstIcon && <p className={Classes.nameStyles}>{manaData.iconVisual[0].iconText}</p>}
                     </li>
 
-                    <li key={manaData.iconVisual[1].id} onMouseEnter={(e) => handleLogic(manaData.iconVisual[1].id)} onMouseLeave={() => reverse(manaData.iconVisual[1].id)}>
+                    <li key={manaData.iconVisual[1].id} onMouseEnter={() => handleLogic(manaData.iconVisual[1].id)} onMouseLeave={() => handleLogic(manaData.iconVisual[1].id)}>
                         <Link to="">
                             <span className={Classes.iconStyles}>
                                 {manaData.iconVisual[1].iconName}
@@ -95,7 +77,7 @@ function HeaderComp() {
                         {nameBoo.secondIcon && <p className={Classes.nameStyles}>{manaData.iconVisual[1].iconText}</p>}
                     </li>
 
-                    <li key={manaData.iconVisual[2].id} onMouseEnter={(e) => handleLogic(manaData.iconVisual[2].id)} onMouseLeave={() => reverse(manaData.iconVisual[2].id)}>
+                    <li key={manaData.iconVisual[2].id} onMouseEnter={() => handleLogic(manaData.iconVisual[2].id)} onMouseLeave={() => handleLogic(manaData.iconVisual[2].id)}>
                         <Link to="">
                             <span className={Classes.iconStyles}>
                                 {manaData.iconVisual[2].iconName}
@@ -104,7 +86,7 @@ function HeaderComp() {
                         {nameBoo.thirdIcon && <p className={Classes.nameStyles}>{manaData.iconVisual[2].iconText}</p>}
                     </li>
 
-                    <li id="4" key={manaData.iconVisual[3].id} onMouseEnter={(e) => handleLogic(manaData.iconVisual[3].id)} onMouseLeave={() => reverse(manaData.iconVisual[3].id)}>
+                    <li id="4" key={manaData.iconVisual[3].id} onMouseEnter={() => handleLogic(manaData.iconVisual[3].id)} onMouseLeave={() => handleLogic(manaData.iconVisual[3].id)}>
 
                         <span className={Classes.iconStyles}>
                             {manaData.iconVisual[3].iconName}
@@ -113,7 +95,7 @@ function HeaderComp() {
                         {nameBoo.fourthIcon && <p className={Classes.nameStyles}>{manaData.iconVisual[3].iconText}</p>}
                     </li>
 
-                    <li key={manaData.iconVisual[4].id} onMouseEnter={(e) => handleLogic(manaData.iconVisual[4].id)} onMouseLeave={() => reverse(manaData.iconVisual[4].id)}>
+                    <li key={manaData.iconVisual[4].id} onMouseEnter={() => handleLogic(manaData.iconVisual[4].id)} onMouseLeave={() => handleLogic(manaData.iconVisual[4].id)}>
                         <Link to="">
                             <span className={Classes.iconStyles}>
                                 {manaData.iconVisual[4].iconName}
