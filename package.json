@@ -16,8 +16,7 @@
     "start": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview",
-    "dev": "vite dev",
-    "postinstall": "npm install"
+    "dev": "vite dev"
   },
   "eslintConfig": {
     "extends": [
